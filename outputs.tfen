@@ -1,0 +1,9 @@
+output "container_id" {
+        description = "Container ID"
+        value = docker_container.nginx.id
+}
+
+output "image_id" {
+        description = "Image ID"
+        value = docker_container.iginx.name
+}
