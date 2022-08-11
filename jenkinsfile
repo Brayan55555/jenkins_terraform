@@ -1,3 +1,4 @@
+pipeline {
     agent { label  "EC2_UBUNTU"}
     parameters {
         string defaultValue: '', description: 'Nombre del usuario a crear', name: 'USUARIO', trim: true
