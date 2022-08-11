@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Apply') {
             steps {
-                sh "terraform apply -input=false"
+                sh "sudo terraform apply -input=false"
             }
         }
     }
